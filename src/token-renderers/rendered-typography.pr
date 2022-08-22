@@ -69,6 +69,8 @@ Rendered as:
   fontStyle: "{{ fontStyle }}",
   {[ if (context.font.family === "Inter") ]}
     fontWeight: {{ ds.fontWeight(context.font) }},
+  {[ else ]}
+    fontWeight: 400,
   {[/]}
   fontSize: {[ inject "rendered-css" context context.fontSize /]},
   lineHeight: {[ inject "rendered-css" context context.lineHeight /]},
