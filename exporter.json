@@ -3,7 +3,7 @@
     "name": "React - Chatbooks",
     "description": "React token and style exporter customized for Chatbooks",
     "source_dir": "src",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "tags": ["React", "Tokens", "Styles"],
     "author": "Ivan Terpugov & Jiri Trecak & Jason Clark",
     "organization": "Supernova & Chatbooks",
